@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageGrid</string>
+    <string name ="url">URL:</string>
+    <string name="asc">ASCENDING</string>
+    <string name="des">DESCENDING</string>
+    <string name="date">RECENT</string>
+</resources>

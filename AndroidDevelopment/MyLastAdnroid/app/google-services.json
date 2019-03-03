@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "567390075403",
+    "firebase_url": "https://mylastadnroid.firebaseio.com",
+    "project_id": "mylastadnroid",
+    "storage_bucket": "mylastadnroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567390075403:android:132891fa695f8721",
+        "android_client_info": {
+          "package_name": "com.example.namxuan.mylastadnroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567390075403-6qi58mjhrhpvlu178aubb7gcrju69nl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.namxuan.mylastadnroid",
+            "certificate_hash": "05ba3c21e375abb461b0f458f505ee20f1a2b587"
+          }
+        },
+        {
+          "client_id": "567390075403-idj7u4nlmg9c5eslqp7l5j9h1aaebqvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHyU3eNdTRPJZgSIWE5tG8EYBYoJakTsg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567390075403-idj7u4nlmg9c5eslqp7l5j9h1aaebqvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

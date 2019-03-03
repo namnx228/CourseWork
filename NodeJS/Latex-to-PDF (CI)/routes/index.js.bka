@@ -1,0 +1,36 @@
+
+      compile(input, output, res, failed, result);
+      // console.error('After compile');
+      // res.json(result)
+         // console.error('meow');
+    })
+  // }
+  // catch(err){
+  //   next(400) ;
+  // }
+
+});
+
+function compile(inputFile, outputFile, res, failed, result){
+    const latex = require('node-latex')
+    const fs = require('fs')
+//    if (!fs.existsSync(inputFile)){
+//        console.error('van vo');
+//      res.status(400).json(failed)
+//    }
+//    else {
+        const input = fs.createReadStream(inputFile)
+        const output = fs.createWriteStream(outputFile)
+        const pdf = latex(input)
+         
+         pdf.pipe(output)
+         pdf.on('error', function(err) {
+           if (err){
+             console.error(err);
+             res.status(400).json(failed)
+           }
+           res.json(result)
+         })
+    // console.log('Vao ham compile');
+//    }
+}

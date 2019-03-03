@@ -1,0 +1,5 @@
+cp "Authentication"/[^nf]* -r submit/exercise/
+cd submit/
+rm exercise.zip
+zip exercise -r exercise
+cp exercise.zip ~/Desktop
